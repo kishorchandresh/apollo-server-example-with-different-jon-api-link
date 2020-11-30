@@ -1,7 +1,7 @@
 const { ApolloServer, gql } = require('apollo-server');
 const fetch = require('node-fetch');
 
-// fetch datas from diffrent sorces
+// fetch datas from different sorces
 const getCity = fetch('https://api.mocki.io/v1/b043df5a').then(res => res.json());
 const toDoList = fetch('https://api.mocki.io/v1/13f44462').then(res => res.json());
 const allPost = fetch('https://jsonplaceholder.typicode.com/posts').then(res => res.json());
