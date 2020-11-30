@@ -17,13 +17,13 @@ const typeDefs = gql`
         body: String
     }
 
-    # this is for get City from https://api.mocki.io/v1/b043df5a
+    # this is for toDo List from https://api.mocki.io/v1/13f44462
     type ToDoList{
         title: String
         description: String
     }
 
-    # this is for toDo List from https://api.mocki.io/v1/13f44462
+    # this is for get City from https://api.mocki.io/v1/b043df5a
     type GetCitys{
         name: String,
         city: String,
